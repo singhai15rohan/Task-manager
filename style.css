@@ -1,0 +1,60 @@
+
+h1{
+    border: solid black;
+    padding-left: 50px;
+    color: orange;
+}
+.box{
+    
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 50px green;
+    border-radius: 50px;
+}
+button
+{
+    border:none;
+    background-color: inherit;
+    border-radius: 5px;
+}
+.delete
+{
+    background-color: red;
+    color: white;
+    margin-left: 90px;
+}
+.edit
+{
+    background-color: greenyellow;
+    margin-right: 20px;
+}
+.add button{
+    background-color: rgb(93, 0, 255);
+    color: white;
+}
+.add input{
+    width: 200px;
+    border: 2px solid green;
+    height: 20px;
+    border-radius: 5px;
+}
+.alltask
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px;
+}
+.task
+{
+    border: 2px solid green;
+    border-radius: 5px;
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.task input{
+    border: none;
+}
